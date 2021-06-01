@@ -1,0 +1,17 @@
+{
+  "package": "org.spoorn.spoornextras.mixin",
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "conformVisibility": true
+  },
+  "mixins": [
+    "PacketBufferMixin"
+  ],
+  "client": [
+  ],
+  "refmap": "spoornextras.refmap.json"
+}
